@@ -50,7 +50,7 @@ public class TestFillForm {
         // Add Hobbies
         $x("//label[text()='Sports']").click();
         // Add Picture
-        $x("//input[@id='uploadPicture']").uploadFile(new File("C:\\Users\\odofl\\OneDrive\\Рабочий стол\\scr Figma\\Screenshot_188.png"));
+        $x("//input[@id='uploadPicture']").uploadFile(new File("C:\\QA GURU\\demoga-\\src\\test\\resources\\Screenshot_188.png"));
         // Add Current Address
         $("#currentAddress").setValue("Moscow,Lenina 152");
         // Add State
